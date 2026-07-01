@@ -4,10 +4,12 @@ import QrtMark from '../components/QrtMark.astro';
 interface Props {
   title: string;
   description?: string;
+  noindex?: boolean;
 }
 const {
   title,
   description = 'Notes on ERP, data and AI from inside Business Central implementations.',
+  noindex = false,
 } = Astro.props;
 
 const siteTitle = 'Higeja';
@@ -22,6 +24,7 @@ const pageTitle = title === siteTitle ? siteTitle : `${title} — ${siteTitle}`;
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
