@@ -1,0 +1,109 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+interface Tool {
+  name: string;
+  url: string;
+  description: string;
+}
+
+const tools: Tool[] = [
+  {
+    name: 'Automations',
+    url: 'https://automations.higeja.tech',
+    description: 'n8n workflows and automations.',
+  },
+  {
+    name: 'Files',
+    url: 'https://files.higeja.tech',
+    description: 'Exports, digests, and shared downloads.',
+  },
+  {
+    name: 'PDF Library',
+    url: 'https://pdf-books.higeja.tech',
+    description: 'Indexed book library with semantic search.',
+  },
+  {
+    name: 'Scrabble Club',
+    url: 'https://scrabble.higeja.tech',
+    description: 'Weekly duplicate Scrabble rankings.',
+  },
+  {
+    name: 'Newsletter Curator',
+    url: 'https://newsletter-curator.higeja.tech',
+    description: 'Curated article/newsletter pipeline.',
+  },
+];
+---
+<Layout title="Tools" noindex={true}>
+  <section class="tools">
+    <p class="eyebrow">private — bookmark only</p>
+    <h1>Tools</h1>
+    <ul class="tool-list">
+      {tools.map((tool) => (
+        <li>
+          <a href={tool.url} target="_blank" rel="noopener noreferrer">
+            <span class="tool-name">{tool.name}</span>
+            <span class="tool-desc">{tool.description}</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</Layout>
+
+<style>
+  .tools {
+    max-width: var(--measure);
+  }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-accent-warm);
+    margin: 0 0 0.5rem;
+  }
+
+  h1 {
+    margin: 0 0 2rem;
+  }
+
+  .tool-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--color-line);
+  }
+
+  .tool-list li {
+    border-bottom: 1px solid var(--color-line);
+  }
+
+  .tool-list a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    color: var(--color-ink);
+  }
+
+  .tool-list a:hover .tool-name {
+    color: var(--color-accent);
+  }
+
+  .tool-name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: color 0.15s ease;
+  }
+
+  .tool-desc {
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    color: var(--color-ink-soft);
+  }
+</style>
