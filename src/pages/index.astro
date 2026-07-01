@@ -1,0 +1,163 @@
+---
+import Layout from '../layouts/Layout.astro';
+import QrtMark from '../components/QrtMark.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const posts = allPosts.sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+
+const formatDate = (d: Date) =>
+  d.toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: '2-digit' });
+---
+<Layout title="Higeja">
+  <section class="hero">
+    <QrtMark size={120} animated />
+    <h1 class="hero-title">Query. Relate. Transform.</h1>
+    <p class="hero-sub">
+      Notes on Microsoft Dynamics 365 Business Central, data, and AI-assisted
+      analysis — written from inside real implementations, not from a vendor
+      slide deck.
+    </p>
+  </section>
+
+  <section class="ledger">
+    <div class="ledger-head">
+      <span>#</span>
+      <span>title</span>
+      <span>date</span>
+    </div>
+    {posts.length === 0 && (
+      <p class="ledger-empty">First entry is being written. Check back soon.</p>
+    )}
+    {posts.map((post, i) => (
+      <a class="ledger-row" href={`/blog/${post.id}/`}>
+        <span class="ledger-index">{String(i + 1).padStart(3, '0')}</span>
+        <span class="ledger-title">
+          {post.data.title}
+          <span class="ledger-desc">{post.data.description}</span>
+        </span>
+        <span class="ledger-date">{formatDate(post.data.pubDate)}</span>
+      </a>
+    ))}
+  </section>
+
+  <section class="about" id="about">
+    <h2>The QRT doctrine</h2>
+    <p>
+      Twenty-five years in ERP teaches you that every implementation is the
+      same three moves, repeated at every scale: you <strong>query</strong> what
+      exists, you <strong>relate</strong> it to what it actually means for the
+      business, and you <strong>transform</strong> it into something the next
+      person can rely on. AI tooling hasn't changed that doctrine — it's
+      changed how fast each step can move.
+    </p>
+  </section>
+</Layout>
+
+<style>
+  .hero {
+    padding: 2rem 0 3.5rem;
+    border-bottom: 1px solid var(--color-line);
+    margin-bottom: 3rem;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 5vw, 2.85rem);
+    margin: 1.5rem 0 0.75rem;
+  }
+
+  .hero-sub {
+    max-width: var(--measure);
+    color: var(--color-ink-soft);
+    font-size: 1.05rem;
+  }
+
+  .ledger {
+    margin-bottom: 4rem;
+  }
+
+  .ledger-head {
+    display: grid;
+    grid-template-columns: 3rem 1fr auto;
+    gap: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-ink-soft);
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--color-line);
+  }
+
+  .ledger-empty {
+    padding: 1.5rem 0;
+    color: var(--color-ink-soft);
+    font-style: italic;
+  }
+
+  .ledger-row {
+    display: grid;
+    grid-template-columns: 3rem 1fr auto;
+    gap: 1rem;
+    align-items: baseline;
+    padding: 1.1rem 0;
+    border-bottom: 1px solid var(--color-line);
+    text-decoration: none;
+    color: var(--color-ink);
+  }
+
+  .ledger-row:hover .ledger-title {
+    color: var(--color-accent);
+  }
+
+  .ledger-index {
+    font-family: var(--font-mono);
+    color: var(--color-accent-warm);
+    font-size: 0.85rem;
+  }
+
+  .ledger-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 600;
+    transition: color 0.15s ease;
+  }
+
+  .ledger-desc {
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 0.88rem;
+    color: var(--color-ink-soft);
+  }
+
+  .ledger-date {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--color-ink-soft);
+    white-space: nowrap;
+  }
+
+  .about {
+    max-width: var(--measure);
+  }
+
+  .about p {
+    color: var(--color-ink-soft);
+  }
+
+  @media (max-width: 36rem) {
+    .ledger-head,
+    .ledger-row {
+      grid-template-columns: 2.2rem 1fr;
+    }
+    .ledger-date {
+      grid-column: 2;
+      margin-top: -0.4rem;
+    }
+  }
+</style>

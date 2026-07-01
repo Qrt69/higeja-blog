@@ -1,0 +1,184 @@
+---
+import QrtMark from '../components/QrtMark.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+const {
+  title,
+  description = 'Notes on ERP, data and AI from inside Business Central implementations.',
+} = Astro.props;
+
+const siteTitle = 'Higeja';
+const pageTitle = title === siteTitle ? siteTitle : `${title} — ${siteTitle}`;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a href="/" class="brand">
+          <QrtMark size={26} />
+          <span class="brand-name">higeja</span>
+        </a>
+        <nav class="site-nav">
+          <a href="/">notes</a>
+          <a href="/#about">doctrine</a>
+          <a href="mailto:kurt.farasyn@higeja.tech">contact</a>
+        </nav>
+      </header>
+
+      <main class="site-main">
+        <slot />
+      </main>
+
+      <footer class="site-footer">
+        <span>Kurt Farasyn — Higeja. ERP &amp; analytical reporting for Business Central.</span>
+        <span class="footer-mark"><QrtMark size={20} /></span>
+      </footer>
+    </div>
+
+    <style is:global>
+      :root {
+        --color-paper: #f7f7f4;
+        --color-paper-raised: #ffffff;
+        --color-ink: #1c2024;
+        --color-ink-soft: #565d66;
+        --color-line: #dedfd9;
+        --color-accent: #0f6e6e;
+        --color-accent-warm: #c2622a;
+
+        --font-display: 'IBM Plex Serif', Georgia, serif;
+        --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+        --font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+        --measure: 38rem;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        background: var(--color-paper);
+      }
+
+      body {
+        margin: 0;
+        font-family: var(--font-body);
+        color: var(--color-ink);
+        background: var(--color-paper);
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      a:focus-visible,
+      button:focus-visible {
+        outline: 2px solid var(--color-accent);
+        outline-offset: 3px;
+      }
+
+      .site-shell {
+        max-width: 56rem;
+        margin: 0 auto;
+        padding: 1.75rem 1.5rem 4rem;
+      }
+
+      .site-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 1.25rem;
+        border-bottom: 1px solid var(--color-line);
+        margin-bottom: 2.5rem;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        text-decoration: none;
+      }
+
+      .brand-name {
+        font-family: var(--font-mono);
+        font-size: 0.95rem;
+        letter-spacing: 0.04em;
+        color: var(--color-ink);
+      }
+
+      .site-nav {
+        display: flex;
+        gap: 1.5rem;
+        font-family: var(--font-mono);
+        font-size: 0.85rem;
+      }
+
+      .site-nav a {
+        text-decoration: none;
+        color: var(--color-ink-soft);
+        border-bottom: 1px solid transparent;
+        padding-bottom: 2px;
+        transition: color 0.15s ease, border-color 0.15s ease;
+      }
+
+      .site-nav a:hover {
+        color: var(--color-accent);
+        border-color: var(--color-accent);
+      }
+
+      .site-footer {
+        margin-top: 4rem;
+        padding-top: 1.25rem;
+        border-top: 1px solid var(--color-line);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: var(--font-mono);
+        font-size: 0.78rem;
+        color: var(--color-ink-soft);
+      }
+
+      h1, h2, h3 {
+        font-family: var(--font-display);
+        font-weight: 600;
+        line-height: 1.15;
+        color: var(--color-ink);
+      }
+
+      p {
+        line-height: 1.65;
+      }
+
+      @media (max-width: 36rem) {
+        .site-header {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 1rem;
+        }
+        .site-nav {
+          gap: 1.1rem;
+        }
+      }
+    </style>
+  </body>
+</html>

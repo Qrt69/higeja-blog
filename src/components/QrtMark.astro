@@ -1,0 +1,78 @@
+---
+interface Props {
+  size?: number;
+  animated?: boolean;
+}
+const { size = 28, animated = false } = Astro.props;
+---
+<svg
+  class:list={["qrt-mark", { "qrt-mark--animated": animated }]}
+  width={size}
+  height={size * (40 / 120)}
+  viewBox="0 0 120 40"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  role="img"
+  aria-label="QRT: Query, Relate, Transform"
+>
+  <line x1="14" y1="20" x2="56" y2="20" class="qrt-edge" />
+  <line x1="64" y1="20" x2="106" y2="20" class="qrt-edge qrt-edge--warm" />
+  <circle cx="10" cy="20" r="6" class="qrt-node qrt-node--q" />
+  <circle cx="60" cy="20" r="6" class="qrt-node qrt-node--r" />
+  <circle cx="110" cy="20" r="6" class="qrt-node qrt-node--t" />
+</svg>
+
+<style>
+  .qrt-edge {
+    stroke: var(--color-accent);
+    stroke-width: 1.5;
+  }
+  .qrt-edge--warm {
+    stroke: var(--color-accent-warm);
+  }
+  .qrt-node {
+    fill: var(--color-paper);
+    stroke: var(--color-ink);
+    stroke-width: 1.5;
+  }
+  .qrt-node--q {
+    fill: var(--color-accent);
+    stroke: var(--color-accent);
+  }
+  .qrt-node--t {
+    fill: var(--color-accent-warm);
+    stroke: var(--color-accent-warm);
+  }
+
+  .qrt-mark--animated .qrt-edge {
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    animation: qrt-draw 0.9s ease-out forwards;
+  }
+  .qrt-mark--animated .qrt-edge--warm {
+    animation-delay: 0.35s;
+  }
+  .qrt-mark--animated .qrt-node {
+    opacity: 0;
+    animation: qrt-pop 0.4s ease-out forwards;
+  }
+  .qrt-mark--animated .qrt-node--q { animation-delay: 0s; }
+  .qrt-mark--animated .qrt-node--r { animation-delay: 0.35s; }
+  .qrt-mark--animated .qrt-node--t { animation-delay: 0.75s; }
+
+  @keyframes qrt-draw {
+    to { stroke-dashoffset: 0; }
+  }
+  @keyframes qrt-pop {
+    to { opacity: 1; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .qrt-mark--animated .qrt-edge,
+    .qrt-mark--animated .qrt-node {
+      animation: none;
+      stroke-dashoffset: 0;
+      opacity: 1;
+    }
+  }
+</style>
