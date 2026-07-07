@@ -1,7 +1,7 @@
 ---
 title: "BC — the CONFIGPACK Configuration Package"
 description: "How to move a config package between BC environments without dragging the data along."
-pubDate: 2026-07-08
+pubDate: 2026-07-07
 draft: false
 ---
 
