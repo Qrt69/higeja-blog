@@ -17,7 +17,7 @@ Now, the latter is interesting, but we also migrate all the data in the tables o
 There's one table we don't use explicitly here, and that's table 8615. We don't want to include this one in our config pack, because this is exactly the table holding the data itself, see it as a buffer table. So the CONFIGPACK config pack should look like this:
 
 ![De CONFIGPACK config package card met de drie tabellen 8613, 8616 en 8623](/configpack-card.png)
-*The CONFIGPACK card. Note the three tables 8623, 8613 and 8616 — and that "No. of Package Records" is 0 for each: we are moving the definition, not the data.*
+*The CONFIGPACK card. Note the three tables 8623, 8613 and 8616*
 
 So far, we have our config pack. We can export and import it like every other config pack. We can export the whole package as a rapidstart file, or as an Excel file, both are okay.
 
