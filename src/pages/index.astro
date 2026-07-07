@@ -33,7 +33,7 @@ const formatDate = (d: Date) =>
     )}
     {posts.map((post, i) => (
       <a class="ledger-row" href={`/blog/${post.id}/`}>
-        <span class="ledger-index">{String(i + 1).padStart(3, '0')}</span>
+        <span class="ledger-index">{String(posts.length - i).padStart(3, '0')}</span>
         <span class="ledger-title">
           {post.data.title}
           <span class="ledger-desc">{post.data.description}</span>
