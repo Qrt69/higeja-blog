@@ -187,4 +187,4 @@ What strikes me most, though, isn't really about mathematicians. It's a pattern 
 
 I made an interactive graph representation of the Wikipedia links:
 
-[View interactive network visualization](Results/mathematicians_network_stable.html)
+[View the interactive network visualization](/network/mathematicians-network.html)
