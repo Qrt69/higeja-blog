@@ -18,6 +18,8 @@ topics:
   - data-science
 created: 2026-07-19T16:47
 updated: 2026-07-22T14:59
+pubDate: 2026-07-19
+description: A network analysis of 96 great mathematicians reveals that Euler, despite his reputation, isn't the most central figure — and the reason why says something about how we assign credit in general.
 ---
 
 # Is Euler really the greatest?
