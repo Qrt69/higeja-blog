@@ -175,4 +175,4 @@ The network analysis reveals several surprising insights:
 
 What strikes me most, though, isn't really about mathematicians. It's a pattern I recognize from 25 years in ERP consulting: success gets attributed to a single genius, a single hero-consultant, a single "who saved the project." But the network — much like Hilbert's high betweenness despite a lower PageRank — usually tells a different story. The bridge-builders, the ones connecting disconnected parts of a system, rarely get the credit that the most-cited or most-visible node does. Whether it's mathematical influence or an ERP implementation, the myth of the lone genius tends to obscure the structure that actually did the work.
 
-[View the interactive network visualization](/network/mathematicians-network.html)
+<a href="/network/mathematicians-network.html" target="_blank" rel="noopener noreferrer">View the interactive network visualization (opens in a new tab)</a>
