@@ -11,104 +11,108 @@ But: was he truly the greatest? Triggered by my interest for graph theory, I did
 
 First of all, the list of mathematicians:
 
-<table>
-<tr><th>#</th><th>Name</th><th>Years</th></tr>
-<tr><td>1</td><td>Pythagoras</td><td>ca. 569 B.C.</td></tr>
-<tr><td>2</td><td>Euclid</td><td>ca. 325 B.C.</td></tr>
-<tr><td>3</td><td>Archimedes</td><td>ca. 287 B.C.</td></tr>
-<tr><td>4</td><td>Apollonius</td><td>ca. 262 B.C.</td></tr>
-<tr><td>5</td><td>Abu Ja'far Muhammad ibn Mūsā al-Khwārizmī</td><td>800 - 847</td></tr>
-<tr><td>6</td><td>Leonardo of Pisa (known as Fibonacci)</td><td>1170 - 1250</td></tr>
-<tr><td>7</td><td>Girolamo Cardano</td><td>1501 - 1576</td></tr>
-<tr><td>8</td><td>Rafael Bombelli</td><td>1526 - 1572</td></tr>
-<tr><td>9</td><td>François Viète</td><td>1540 - 1603</td></tr>
-<tr><td>10</td><td>Simon Stevin</td><td>1548 - 1620</td></tr>
-<tr><td>11</td><td>René Descartes</td><td>1596 - 1650</td></tr>
-<tr><td>12</td><td>Pierre Fermat</td><td>1600 - 1665</td></tr>
-<tr><td>13</td><td>Blaise Pascal</td><td>1623 - 1662</td></tr>
-<tr><td>14</td><td>Isaac Newton</td><td>1642 - 1727</td></tr>
-<tr><td>15</td><td>Gottfried Wilhelm Leibniz</td><td>1646 - 1716</td></tr>
-<tr><td>16</td><td>Brook Taylor</td><td>1685 - 1731</td></tr>
-<tr><td>17</td><td>Christian Goldbach</td><td>1690 - 1764</td></tr>
-<tr><td>18</td><td>The Bernoullis</td><td>—</td></tr>
-<tr><td>19</td><td>Leonhard Euler</td><td>1707 - 1783</td></tr>
-<tr><td>20</td><td>Jean Le Rond d'Alembert</td><td>1717 - 1783</td></tr>
-<tr><td>21</td><td>Edward Waring</td><td>1735 - 1798</td></tr>
-<tr><td>22</td><td>Joseph Louis Lagrange</td><td>1736 - 1813</td></tr>
-<tr><td>23</td><td>Pierre-Simon Laplace</td><td>1749 - 1827</td></tr>
-<tr><td>24</td><td>Adrien-Marie Legendre</td><td>1752 - 1833</td></tr>
-<tr><td>25</td><td>Jean Baptiste Joseph Fourier</td><td>1768 - 1830</td></tr>
-<tr><td>26</td><td>Carl Friedrich Gauss</td><td>1777 - 1855</td></tr>
-<tr><td>27</td><td>Siméon-Denis Poisson</td><td>1781 - 1840</td></tr>
-<tr><td>28</td><td>Bernard Bolzano</td><td>1781 - 1848</td></tr>
-<tr><td>29</td><td>Augustin-Louis Cauchy</td><td>1789 - 1857</td></tr>
-<tr><td>30</td><td>August Ferdinand Möbius</td><td>1790 - 1868</td></tr>
-<tr><td>31</td><td>Nicolai Ivanovich Lobachevskii</td><td>1792 - 1856</td></tr>
-<tr><td>32</td><td>George Green</td><td>1793 - 1841</td></tr>
-<tr><td>33</td><td>Niels Henrik Abel</td><td>1802 - 1829</td></tr>
-<tr><td>34</td><td>János Bolyai</td><td>1802 - 1860</td></tr>
-<tr><td>35</td><td>Carl Gustav Jacob Jacobi</td><td>1804 - 1851</td></tr>
-<tr><td>36</td><td>Peter Gustav Lejeune Dirichlet</td><td>1805 - 1859</td></tr>
-<tr><td>37</td><td>William Rowan Hamilton</td><td>1805 - 1865</td></tr>
-<tr><td>38</td><td>Augustus De Morgan</td><td>1806 - 1871</td></tr>
-<tr><td>39</td><td>Joseph Liouville</td><td>1809 - 1882</td></tr>
-<tr><td>40</td><td>Ernst Eduard Kummer</td><td>1810 - 1893</td></tr>
-<tr><td>41</td><td>Évariste Galois</td><td>1811 - 1832</td></tr>
-<tr><td>42</td><td>James Joseph Sylvester</td><td>1814 - 1897</td></tr>
-<tr><td>43</td><td>George Boole</td><td>1815 - 1864</td></tr>
-<tr><td>44</td><td>Karl Weierstrass</td><td>1815 - 1897</td></tr>
-<tr><td>45</td><td>Pafnuty Chebyshev</td><td>1821 - 1894</td></tr>
-<tr><td>46</td><td>Arthur Cayley</td><td>1821 - 1895</td></tr>
-<tr><td>47</td><td>Charles Hermite</td><td>1822 - 1901</td></tr>
-<tr><td>48</td><td>Leopold Kronecker</td><td>1823 - 1891</td></tr>
-<tr><td>49</td><td>Georg Friedrich Bernhard Riemann</td><td>1826 - 1866</td></tr>
-<tr><td>50</td><td>Julius Wilhelm Richard Dedekind</td><td>1831 - 1916</td></tr>
-<tr><td>51</td><td>Émile Léonard Mathieu</td><td>1835 - 1890</td></tr>
-<tr><td>52</td><td>Camille Jordan</td><td>1838 - 1922</td></tr>
-<tr><td>53</td><td>Sophus Lie</td><td>1842 - 1899</td></tr>
-<tr><td>54</td><td>Georg Cantor</td><td>1845 - 1918</td></tr>
-<tr><td>55</td><td>William Kingdon Clifford</td><td>1845 - 1879</td></tr>
-<tr><td>56</td><td>Gottlob Frege</td><td>1848 - 1925</td></tr>
-<tr><td>57</td><td>Christian Felix Klein</td><td>1849 - 1925</td></tr>
-<tr><td>58</td><td>Ferdinand Georg Frobenius</td><td>1849 - 1917</td></tr>
-<tr><td>59</td><td>Sofya (Sonya) Kovalevskaya</td><td>1850 - 1891</td></tr>
-<tr><td>60</td><td>William Burnside</td><td>1852 - 1927</td></tr>
-<tr><td>61</td><td>Jules Henri Poincaré</td><td>1854 - 1912</td></tr>
-<tr><td>62</td><td>Giuseppe Peano</td><td>1858 - 1932</td></tr>
-<tr><td>63</td><td>David Hilbert</td><td>1862 - 1943</td></tr>
-<tr><td>64</td><td>Hermann Minkowski</td><td>1864 - 1909</td></tr>
-<tr><td>65</td><td>Jacques Hadamard</td><td>1865 - 1963</td></tr>
-<tr><td>66</td><td>Ivar Fredholm</td><td>1866 - 1927</td></tr>
-<tr><td>67</td><td>Charles-Jean de la Vallée Poussin</td><td>1866 - 1962</td></tr>
-<tr><td>68</td><td>Felix Hausdorff</td><td>1868 - 1942</td></tr>
-<tr><td>69</td><td>Élie Joseph Cartan</td><td>1869 - 1951</td></tr>
-<tr><td>70</td><td>Emile Borel</td><td>1871 - 1956</td></tr>
-<tr><td>71</td><td>Bertrand Arthur William Russell</td><td>1872 - 1970</td></tr>
-<tr><td>72</td><td>Henri Lebesgue</td><td>1875 - 1941</td></tr>
-<tr><td>73</td><td>Godfrey Harold Hardy</td><td>1877 - 1947</td></tr>
-<tr><td>74</td><td>Frigyes (Frédéric) Riesz</td><td>1880 - 1956</td></tr>
-<tr><td>75</td><td>Luitzen Egbertus Jan Brouwer</td><td>1881 - 1966</td></tr>
-<tr><td>76</td><td>Emmy Noether</td><td>1882 - 1935</td></tr>
-<tr><td>77</td><td>Waclaw Sierpiński</td><td>1882 - 1969</td></tr>
-<tr><td>78</td><td>George Birkhoff</td><td>1884 - 1944</td></tr>
-<tr><td>79</td><td>John Edensor Littlewood</td><td>1885 - 1977</td></tr>
-<tr><td>80</td><td>Hermann Weyl</td><td>1885 - 1955</td></tr>
-<tr><td>81</td><td>Thoralf Skolem</td><td>1887 - 1963</td></tr>
-<tr><td>82</td><td>Srinivasa Ramanujan</td><td>1887 - 1920</td></tr>
-<tr><td>83</td><td>Richard Courant</td><td>1888 - 1972</td></tr>
-<tr><td>84</td><td>Stefan Banach</td><td>1892 - 1945</td></tr>
-<tr><td>85</td><td>Norbert Wiener</td><td>1894 - 1964</td></tr>
-<tr><td>86</td><td>Emil Artin</td><td>1898 - 1962</td></tr>
-<tr><td>87</td><td>Alfred Tarski</td><td>1901 - 1983</td></tr>
-<tr><td>88</td><td>Andrej Nicolaevich Kolmogorov</td><td>1903 - 1987</td></tr>
-<tr><td>89</td><td>Alonzo Church</td><td>1903 - 1995</td></tr>
-<tr><td>90</td><td>William Vallance Douglas Hodge</td><td>1903 - 1975</td></tr>
-<tr><td>91</td><td>John von Neumann</td><td>1903 - 1957</td></tr>
-<tr><td>92</td><td>Kurt Gödel</td><td>1906 - 1978</td></tr>
-<tr><td>93</td><td>André Weil</td><td>1906 - 1998</td></tr>
-<tr><td>94</td><td>Alan Turing</td><td>1912 - 1954</td></tr>
-<tr><td>95</td><td>Abraham Robinson</td><td>1918 - 1974</td></tr>
-<tr><td>96</td><td>Nicolas Bourbaki</td><td>1935 -</td></tr>
+<table style="border-collapse: collapse; width: 100%; margin: 1.5rem 0;">
+<tr>
+<th style="border: 1px solid #999; padding: 6px 10px; text-align: left; background: #f0f0f0;">#</th>
+<th style="border: 1px solid #999; padding: 6px 10px; text-align: left; background: #f0f0f0;">Name</th>
+<th style="border: 1px solid #999; padding: 6px 10px; text-align: left; background: #f0f0f0;">Years</th>
+</tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">1</td><td style="border: 1px solid #999; padding: 6px 10px;">Pythagoras</td><td style="border: 1px solid #999; padding: 6px 10px;">ca. 569 B.C.</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">2</td><td style="border: 1px solid #999; padding: 6px 10px;">Euclid</td><td style="border: 1px solid #999; padding: 6px 10px;">ca. 325 B.C.</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">3</td><td style="border: 1px solid #999; padding: 6px 10px;">Archimedes</td><td style="border: 1px solid #999; padding: 6px 10px;">ca. 287 B.C.</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">4</td><td style="border: 1px solid #999; padding: 6px 10px;">Apollonius</td><td style="border: 1px solid #999; padding: 6px 10px;">ca. 262 B.C.</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">5</td><td style="border: 1px solid #999; padding: 6px 10px;">Abu Ja'far Muhammad ibn Mūsā al-Khwārizmī</td><td style="border: 1px solid #999; padding: 6px 10px;">800 - 847</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">6</td><td style="border: 1px solid #999; padding: 6px 10px;">Leonardo of Pisa (known as Fibonacci)</td><td style="border: 1px solid #999; padding: 6px 10px;">1170 - 1250</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">7</td><td style="border: 1px solid #999; padding: 6px 10px;">Girolamo Cardano</td><td style="border: 1px solid #999; padding: 6px 10px;">1501 - 1576</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">8</td><td style="border: 1px solid #999; padding: 6px 10px;">Rafael Bombelli</td><td style="border: 1px solid #999; padding: 6px 10px;">1526 - 1572</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">9</td><td style="border: 1px solid #999; padding: 6px 10px;">François Viète</td><td style="border: 1px solid #999; padding: 6px 10px;">1540 - 1603</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">10</td><td style="border: 1px solid #999; padding: 6px 10px;">Simon Stevin</td><td style="border: 1px solid #999; padding: 6px 10px;">1548 - 1620</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">11</td><td style="border: 1px solid #999; padding: 6px 10px;">René Descartes</td><td style="border: 1px solid #999; padding: 6px 10px;">1596 - 1650</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">12</td><td style="border: 1px solid #999; padding: 6px 10px;">Pierre Fermat</td><td style="border: 1px solid #999; padding: 6px 10px;">1600 - 1665</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">13</td><td style="border: 1px solid #999; padding: 6px 10px;">Blaise Pascal</td><td style="border: 1px solid #999; padding: 6px 10px;">1623 - 1662</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">14</td><td style="border: 1px solid #999; padding: 6px 10px;">Isaac Newton</td><td style="border: 1px solid #999; padding: 6px 10px;">1642 - 1727</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">15</td><td style="border: 1px solid #999; padding: 6px 10px;">Gottfried Wilhelm Leibniz</td><td style="border: 1px solid #999; padding: 6px 10px;">1646 - 1716</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">16</td><td style="border: 1px solid #999; padding: 6px 10px;">Brook Taylor</td><td style="border: 1px solid #999; padding: 6px 10px;">1685 - 1731</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">17</td><td style="border: 1px solid #999; padding: 6px 10px;">Christian Goldbach</td><td style="border: 1px solid #999; padding: 6px 10px;">1690 - 1764</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">18</td><td style="border: 1px solid #999; padding: 6px 10px;">The Bernoullis</td><td style="border: 1px solid #999; padding: 6px 10px;">—</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">19</td><td style="border: 1px solid #999; padding: 6px 10px;">Leonhard Euler</td><td style="border: 1px solid #999; padding: 6px 10px;">1707 - 1783</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">20</td><td style="border: 1px solid #999; padding: 6px 10px;">Jean Le Rond d'Alembert</td><td style="border: 1px solid #999; padding: 6px 10px;">1717 - 1783</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">21</td><td style="border: 1px solid #999; padding: 6px 10px;">Edward Waring</td><td style="border: 1px solid #999; padding: 6px 10px;">1735 - 1798</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">22</td><td style="border: 1px solid #999; padding: 6px 10px;">Joseph Louis Lagrange</td><td style="border: 1px solid #999; padding: 6px 10px;">1736 - 1813</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">23</td><td style="border: 1px solid #999; padding: 6px 10px;">Pierre-Simon Laplace</td><td style="border: 1px solid #999; padding: 6px 10px;">1749 - 1827</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">24</td><td style="border: 1px solid #999; padding: 6px 10px;">Adrien-Marie Legendre</td><td style="border: 1px solid #999; padding: 6px 10px;">1752 - 1833</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">25</td><td style="border: 1px solid #999; padding: 6px 10px;">Jean Baptiste Joseph Fourier</td><td style="border: 1px solid #999; padding: 6px 10px;">1768 - 1830</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">26</td><td style="border: 1px solid #999; padding: 6px 10px;">Carl Friedrich Gauss</td><td style="border: 1px solid #999; padding: 6px 10px;">1777 - 1855</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">27</td><td style="border: 1px solid #999; padding: 6px 10px;">Siméon-Denis Poisson</td><td style="border: 1px solid #999; padding: 6px 10px;">1781 - 1840</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">28</td><td style="border: 1px solid #999; padding: 6px 10px;">Bernard Bolzano</td><td style="border: 1px solid #999; padding: 6px 10px;">1781 - 1848</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">29</td><td style="border: 1px solid #999; padding: 6px 10px;">Augustin-Louis Cauchy</td><td style="border: 1px solid #999; padding: 6px 10px;">1789 - 1857</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">30</td><td style="border: 1px solid #999; padding: 6px 10px;">August Ferdinand Möbius</td><td style="border: 1px solid #999; padding: 6px 10px;">1790 - 1868</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">31</td><td style="border: 1px solid #999; padding: 6px 10px;">Nicolai Ivanovich Lobachevskii</td><td style="border: 1px solid #999; padding: 6px 10px;">1792 - 1856</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">32</td><td style="border: 1px solid #999; padding: 6px 10px;">George Green</td><td style="border: 1px solid #999; padding: 6px 10px;">1793 - 1841</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">33</td><td style="border: 1px solid #999; padding: 6px 10px;">Niels Henrik Abel</td><td style="border: 1px solid #999; padding: 6px 10px;">1802 - 1829</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">34</td><td style="border: 1px solid #999; padding: 6px 10px;">János Bolyai</td><td style="border: 1px solid #999; padding: 6px 10px;">1802 - 1860</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">35</td><td style="border: 1px solid #999; padding: 6px 10px;">Carl Gustav Jacob Jacobi</td><td style="border: 1px solid #999; padding: 6px 10px;">1804 - 1851</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">36</td><td style="border: 1px solid #999; padding: 6px 10px;">Peter Gustav Lejeune Dirichlet</td><td style="border: 1px solid #999; padding: 6px 10px;">1805 - 1859</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">37</td><td style="border: 1px solid #999; padding: 6px 10px;">William Rowan Hamilton</td><td style="border: 1px solid #999; padding: 6px 10px;">1805 - 1865</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">38</td><td style="border: 1px solid #999; padding: 6px 10px;">Augustus De Morgan</td><td style="border: 1px solid #999; padding: 6px 10px;">1806 - 1871</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">39</td><td style="border: 1px solid #999; padding: 6px 10px;">Joseph Liouville</td><td style="border: 1px solid #999; padding: 6px 10px;">1809 - 1882</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">40</td><td style="border: 1px solid #999; padding: 6px 10px;">Ernst Eduard Kummer</td><td style="border: 1px solid #999; padding: 6px 10px;">1810 - 1893</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">41</td><td style="border: 1px solid #999; padding: 6px 10px;">Évariste Galois</td><td style="border: 1px solid #999; padding: 6px 10px;">1811 - 1832</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">42</td><td style="border: 1px solid #999; padding: 6px 10px;">James Joseph Sylvester</td><td style="border: 1px solid #999; padding: 6px 10px;">1814 - 1897</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">43</td><td style="border: 1px solid #999; padding: 6px 10px;">George Boole</td><td style="border: 1px solid #999; padding: 6px 10px;">1815 - 1864</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">44</td><td style="border: 1px solid #999; padding: 6px 10px;">Karl Weierstrass</td><td style="border: 1px solid #999; padding: 6px 10px;">1815 - 1897</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">45</td><td style="border: 1px solid #999; padding: 6px 10px;">Pafnuty Chebyshev</td><td style="border: 1px solid #999; padding: 6px 10px;">1821 - 1894</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">46</td><td style="border: 1px solid #999; padding: 6px 10px;">Arthur Cayley</td><td style="border: 1px solid #999; padding: 6px 10px;">1821 - 1895</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">47</td><td style="border: 1px solid #999; padding: 6px 10px;">Charles Hermite</td><td style="border: 1px solid #999; padding: 6px 10px;">1822 - 1901</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">48</td><td style="border: 1px solid #999; padding: 6px 10px;">Leopold Kronecker</td><td style="border: 1px solid #999; padding: 6px 10px;">1823 - 1891</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">49</td><td style="border: 1px solid #999; padding: 6px 10px;">Georg Friedrich Bernhard Riemann</td><td style="border: 1px solid #999; padding: 6px 10px;">1826 - 1866</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">50</td><td style="border: 1px solid #999; padding: 6px 10px;">Julius Wilhelm Richard Dedekind</td><td style="border: 1px solid #999; padding: 6px 10px;">1831 - 1916</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">51</td><td style="border: 1px solid #999; padding: 6px 10px;">Émile Léonard Mathieu</td><td style="border: 1px solid #999; padding: 6px 10px;">1835 - 1890</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">52</td><td style="border: 1px solid #999; padding: 6px 10px;">Camille Jordan</td><td style="border: 1px solid #999; padding: 6px 10px;">1838 - 1922</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">53</td><td style="border: 1px solid #999; padding: 6px 10px;">Sophus Lie</td><td style="border: 1px solid #999; padding: 6px 10px;">1842 - 1899</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">54</td><td style="border: 1px solid #999; padding: 6px 10px;">Georg Cantor</td><td style="border: 1px solid #999; padding: 6px 10px;">1845 - 1918</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">55</td><td style="border: 1px solid #999; padding: 6px 10px;">William Kingdon Clifford</td><td style="border: 1px solid #999; padding: 6px 10px;">1845 - 1879</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">56</td><td style="border: 1px solid #999; padding: 6px 10px;">Gottlob Frege</td><td style="border: 1px solid #999; padding: 6px 10px;">1848 - 1925</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">57</td><td style="border: 1px solid #999; padding: 6px 10px;">Christian Felix Klein</td><td style="border: 1px solid #999; padding: 6px 10px;">1849 - 1925</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">58</td><td style="border: 1px solid #999; padding: 6px 10px;">Ferdinand Georg Frobenius</td><td style="border: 1px solid #999; padding: 6px 10px;">1849 - 1917</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">59</td><td style="border: 1px solid #999; padding: 6px 10px;">Sofya (Sonya) Kovalevskaya</td><td style="border: 1px solid #999; padding: 6px 10px;">1850 - 1891</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">60</td><td style="border: 1px solid #999; padding: 6px 10px;">William Burnside</td><td style="border: 1px solid #999; padding: 6px 10px;">1852 - 1927</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">61</td><td style="border: 1px solid #999; padding: 6px 10px;">Jules Henri Poincaré</td><td style="border: 1px solid #999; padding: 6px 10px;">1854 - 1912</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">62</td><td style="border: 1px solid #999; padding: 6px 10px;">Giuseppe Peano</td><td style="border: 1px solid #999; padding: 6px 10px;">1858 - 1932</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">63</td><td style="border: 1px solid #999; padding: 6px 10px;">David Hilbert</td><td style="border: 1px solid #999; padding: 6px 10px;">1862 - 1943</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">64</td><td style="border: 1px solid #999; padding: 6px 10px;">Hermann Minkowski</td><td style="border: 1px solid #999; padding: 6px 10px;">1864 - 1909</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">65</td><td style="border: 1px solid #999; padding: 6px 10px;">Jacques Hadamard</td><td style="border: 1px solid #999; padding: 6px 10px;">1865 - 1963</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">66</td><td style="border: 1px solid #999; padding: 6px 10px;">Ivar Fredholm</td><td style="border: 1px solid #999; padding: 6px 10px;">1866 - 1927</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">67</td><td style="border: 1px solid #999; padding: 6px 10px;">Charles-Jean de la Vallée Poussin</td><td style="border: 1px solid #999; padding: 6px 10px;">1866 - 1962</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">68</td><td style="border: 1px solid #999; padding: 6px 10px;">Felix Hausdorff</td><td style="border: 1px solid #999; padding: 6px 10px;">1868 - 1942</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">69</td><td style="border: 1px solid #999; padding: 6px 10px;">Élie Joseph Cartan</td><td style="border: 1px solid #999; padding: 6px 10px;">1869 - 1951</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">70</td><td style="border: 1px solid #999; padding: 6px 10px;">Emile Borel</td><td style="border: 1px solid #999; padding: 6px 10px;">1871 - 1956</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">71</td><td style="border: 1px solid #999; padding: 6px 10px;">Bertrand Arthur William Russell</td><td style="border: 1px solid #999; padding: 6px 10px;">1872 - 1970</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">72</td><td style="border: 1px solid #999; padding: 6px 10px;">Henri Lebesgue</td><td style="border: 1px solid #999; padding: 6px 10px;">1875 - 1941</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">73</td><td style="border: 1px solid #999; padding: 6px 10px;">Godfrey Harold Hardy</td><td style="border: 1px solid #999; padding: 6px 10px;">1877 - 1947</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">74</td><td style="border: 1px solid #999; padding: 6px 10px;">Frigyes (Frédéric) Riesz</td><td style="border: 1px solid #999; padding: 6px 10px;">1880 - 1956</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">75</td><td style="border: 1px solid #999; padding: 6px 10px;">Luitzen Egbertus Jan Brouwer</td><td style="border: 1px solid #999; padding: 6px 10px;">1881 - 1966</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">76</td><td style="border: 1px solid #999; padding: 6px 10px;">Emmy Noether</td><td style="border: 1px solid #999; padding: 6px 10px;">1882 - 1935</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">77</td><td style="border: 1px solid #999; padding: 6px 10px;">Waclaw Sierpiński</td><td style="border: 1px solid #999; padding: 6px 10px;">1882 - 1969</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">78</td><td style="border: 1px solid #999; padding: 6px 10px;">George Birkhoff</td><td style="border: 1px solid #999; padding: 6px 10px;">1884 - 1944</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">79</td><td style="border: 1px solid #999; padding: 6px 10px;">John Edensor Littlewood</td><td style="border: 1px solid #999; padding: 6px 10px;">1885 - 1977</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">80</td><td style="border: 1px solid #999; padding: 6px 10px;">Hermann Weyl</td><td style="border: 1px solid #999; padding: 6px 10px;">1885 - 1955</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">81</td><td style="border: 1px solid #999; padding: 6px 10px;">Thoralf Skolem</td><td style="border: 1px solid #999; padding: 6px 10px;">1887 - 1963</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">82</td><td style="border: 1px solid #999; padding: 6px 10px;">Srinivasa Ramanujan</td><td style="border: 1px solid #999; padding: 6px 10px;">1887 - 1920</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">83</td><td style="border: 1px solid #999; padding: 6px 10px;">Richard Courant</td><td style="border: 1px solid #999; padding: 6px 10px;">1888 - 1972</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">84</td><td style="border: 1px solid #999; padding: 6px 10px;">Stefan Banach</td><td style="border: 1px solid #999; padding: 6px 10px;">1892 - 1945</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">85</td><td style="border: 1px solid #999; padding: 6px 10px;">Norbert Wiener</td><td style="border: 1px solid #999; padding: 6px 10px;">1894 - 1964</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">86</td><td style="border: 1px solid #999; padding: 6px 10px;">Emil Artin</td><td style="border: 1px solid #999; padding: 6px 10px;">1898 - 1962</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">87</td><td style="border: 1px solid #999; padding: 6px 10px;">Alfred Tarski</td><td style="border: 1px solid #999; padding: 6px 10px;">1901 - 1983</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">88</td><td style="border: 1px solid #999; padding: 6px 10px;">Andrej Nicolaevich Kolmogorov</td><td style="border: 1px solid #999; padding: 6px 10px;">1903 - 1987</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">89</td><td style="border: 1px solid #999; padding: 6px 10px;">Alonzo Church</td><td style="border: 1px solid #999; padding: 6px 10px;">1903 - 1995</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">90</td><td style="border: 1px solid #999; padding: 6px 10px;">William Vallance Douglas Hodge</td><td style="border: 1px solid #999; padding: 6px 10px;">1903 - 1975</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">91</td><td style="border: 1px solid #999; padding: 6px 10px;">John von Neumann</td><td style="border: 1px solid #999; padding: 6px 10px;">1903 - 1957</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">92</td><td style="border: 1px solid #999; padding: 6px 10px;">Kurt Gödel</td><td style="border: 1px solid #999; padding: 6px 10px;">1906 - 1978</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">93</td><td style="border: 1px solid #999; padding: 6px 10px;">André Weil</td><td style="border: 1px solid #999; padding: 6px 10px;">1906 - 1998</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">94</td><td style="border: 1px solid #999; padding: 6px 10px;">Alan Turing</td><td style="border: 1px solid #999; padding: 6px 10px;">1912 - 1954</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">95</td><td style="border: 1px solid #999; padding: 6px 10px;">Abraham Robinson</td><td style="border: 1px solid #999; padding: 6px 10px;">1918 - 1974</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 10px;">96</td><td style="border: 1px solid #999; padding: 6px 10px;">Nicolas Bourbaki</td><td style="border: 1px solid #999; padding: 6px 10px;">1935 -</td></tr>
 </table>
 
 I wrote a Python program to scrape the Wikipedia pages of these mathematicians, and asked for 3 measures:
@@ -125,28 +129,36 @@ The outcome was sometimes as expected, sometimes surprising. Below is a table wi
 
 ### Top 20 Most Influential Mathematicians (Within This Network of 96)
 
-<table>
-<tr><th>PR Rank</th><th>Mathematician</th><th>PageRank</th><th>InDegree</th><th>ID Rank</th><th>Betweenness</th><th>BW Rank</th></tr>
-<tr><td>1</td><td>Niels Henrik Abel</td><td>0.03905</td><td>0.30526</td><td>5</td><td>0.04869</td><td>7</td></tr>
-<tr><td>2</td><td>Carl Friedrich Gauss</td><td>0.03831</td><td>0.33684</td><td>1</td><td>0.10914</td><td>2</td></tr>
-<tr><td>3</td><td>Isaac Newton</td><td>0.03420</td><td>0.30526</td><td>5</td><td>0.04432</td><td>9</td></tr>
-<tr><td>4</td><td>Euclid</td><td>0.03405</td><td>0.32632</td><td>2</td><td>0.03293</td><td>13</td></tr>
-<tr><td>5</td><td>Leonhard Euler</td><td>0.03376</td><td>0.30526</td><td>5</td><td>0.06979</td><td>5</td></tr>
-<tr><td>6</td><td>David Hilbert</td><td>0.03192</td><td>0.31579</td><td>3</td><td>0.11249</td><td>1</td></tr>
-<tr><td>7</td><td>Gottfried Wilhelm Leibniz</td><td>0.02494</td><td>0.21053</td><td>9</td><td>0.07558</td><td>3</td></tr>
-<tr><td>8</td><td>Joseph Louis Lagrange</td><td>0.02359</td><td>0.20000</td><td>11</td><td>0.02576</td><td>20</td></tr>
-<tr><td>9</td><td>Georg Friedrich Bernhard Riemann</td><td>0.02222</td><td>0.28421</td><td>7</td><td>0.07345</td><td>4</td></tr>
-<tr><td>10</td><td>Augustin-Louis Cauchy</td><td>0.02208</td><td>0.21053</td><td>9</td><td>0.02035</td><td>25</td></tr>
-<tr><td>11</td><td>Pierre Fermat</td><td>0.02194</td><td>0.16842</td><td>17</td><td>0.03781</td><td>10</td></tr>
-<tr><td>12</td><td>Pierre-Simon Laplace</td><td>0.02058</td><td>0.16842</td><td>17</td><td>0.01714</td><td>28</td></tr>
-<tr><td>13</td><td>Carl Gustav Jacob Jacobi</td><td>0.01947</td><td>0.20000</td><td>11</td><td>0.01466</td><td>31</td></tr>
-<tr><td>14</td><td>Apollonius</td><td>0.01868</td><td>0.08421</td><td>40</td><td>0.01779</td><td>27</td></tr>
-<tr><td>15</td><td>Georg Cantor</td><td>0.01815</td><td>0.18947</td><td>14</td><td>0.05613</td><td>6</td></tr>
-<tr><td>16</td><td>Jean Baptiste Joseph Fourier</td><td>0.01809</td><td>0.22105</td><td>8</td><td>0.01077</td><td>38</td></tr>
-<tr><td>17</td><td>Archimedes</td><td>0.01799</td><td>0.09474</td><td>33</td><td>0.00788</td><td>49</td></tr>
-<tr><td>18</td><td>René Descartes</td><td>0.01753</td><td>0.11579</td><td>27</td><td>0.02615</td><td>19</td></tr>
-<tr><td>19</td><td>Bertrand Arthur William Russell</td><td>0.01592</td><td>0.16842</td><td>17</td><td>0.02740</td><td>17</td></tr>
-<tr><td>20</td><td>Jules Henri Poincaré</td><td>0.01588</td><td>0.18947</td><td>14</td><td>0.03529</td><td>11</td></tr>
+<table style="border-collapse: collapse; width: 100%; margin: 1.5rem 0; font-size: 0.9em;">
+<tr>
+<th style="border: 1px solid #999; padding: 6px 8px; text-align: left; background: #f0f0f0;">PR Rank</th>
+<th style="border: 1px solid #999; padding: 6px 8px; text-align: left; background: #f0f0f0;">Mathematician</th>
+<th style="border: 1px solid #999; padding: 6px 8px; text-align: left; background: #f0f0f0;">PageRank</th>
+<th style="border: 1px solid #999; padding: 6px 8px; text-align: left; background: #f0f0f0;">InDegree</th>
+<th style="border: 1px solid #999; padding: 6px 8px; text-align: left; background: #f0f0f0;">ID Rank</th>
+<th style="border: 1px solid #999; padding: 6px 8px; text-align: left; background: #f0f0f0;">Betweenness</th>
+<th style="border: 1px solid #999; padding: 6px 8px; text-align: left; background: #f0f0f0;">BW Rank</th>
+</tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">1</td><td style="border: 1px solid #999; padding: 6px 8px;">Niels Henrik Abel</td><td style="border: 1px solid #999; padding: 6px 8px;">0.03905</td><td style="border: 1px solid #999; padding: 6px 8px;">0.30526</td><td style="border: 1px solid #999; padding: 6px 8px;">5</td><td style="border: 1px solid #999; padding: 6px 8px;">0.04869</td><td style="border: 1px solid #999; padding: 6px 8px;">7</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">2</td><td style="border: 1px solid #999; padding: 6px 8px;">Carl Friedrich Gauss</td><td style="border: 1px solid #999; padding: 6px 8px;">0.03831</td><td style="border: 1px solid #999; padding: 6px 8px;">0.33684</td><td style="border: 1px solid #999; padding: 6px 8px;">1</td><td style="border: 1px solid #999; padding: 6px 8px;">0.10914</td><td style="border: 1px solid #999; padding: 6px 8px;">2</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">3</td><td style="border: 1px solid #999; padding: 6px 8px;">Isaac Newton</td><td style="border: 1px solid #999; padding: 6px 8px;">0.03420</td><td style="border: 1px solid #999; padding: 6px 8px;">0.30526</td><td style="border: 1px solid #999; padding: 6px 8px;">5</td><td style="border: 1px solid #999; padding: 6px 8px;">0.04432</td><td style="border: 1px solid #999; padding: 6px 8px;">9</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">4</td><td style="border: 1px solid #999; padding: 6px 8px;">Euclid</td><td style="border: 1px solid #999; padding: 6px 8px;">0.03405</td><td style="border: 1px solid #999; padding: 6px 8px;">0.32632</td><td style="border: 1px solid #999; padding: 6px 8px;">2</td><td style="border: 1px solid #999; padding: 6px 8px;">0.03293</td><td style="border: 1px solid #999; padding: 6px 8px;">13</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">5</td><td style="border: 1px solid #999; padding: 6px 8px;">Leonhard Euler</td><td style="border: 1px solid #999; padding: 6px 8px;">0.03376</td><td style="border: 1px solid #999; padding: 6px 8px;">0.30526</td><td style="border: 1px solid #999; padding: 6px 8px;">5</td><td style="border: 1px solid #999; padding: 6px 8px;">0.06979</td><td style="border: 1px solid #999; padding: 6px 8px;">5</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">6</td><td style="border: 1px solid #999; padding: 6px 8px;">David Hilbert</td><td style="border: 1px solid #999; padding: 6px 8px;">0.03192</td><td style="border: 1px solid #999; padding: 6px 8px;">0.31579</td><td style="border: 1px solid #999; padding: 6px 8px;">3</td><td style="border: 1px solid #999; padding: 6px 8px;">0.11249</td><td style="border: 1px solid #999; padding: 6px 8px;">1</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">7</td><td style="border: 1px solid #999; padding: 6px 8px;">Gottfried Wilhelm Leibniz</td><td style="border: 1px solid #999; padding: 6px 8px;">0.02494</td><td style="border: 1px solid #999; padding: 6px 8px;">0.21053</td><td style="border: 1px solid #999; padding: 6px 8px;">9</td><td style="border: 1px solid #999; padding: 6px 8px;">0.07558</td><td style="border: 1px solid #999; padding: 6px 8px;">3</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">8</td><td style="border: 1px solid #999; padding: 6px 8px;">Joseph Louis Lagrange</td><td style="border: 1px solid #999; padding: 6px 8px;">0.02359</td><td style="border: 1px solid #999; padding: 6px 8px;">0.20000</td><td style="border: 1px solid #999; padding: 6px 8px;">11</td><td style="border: 1px solid #999; padding: 6px 8px;">0.02576</td><td style="border: 1px solid #999; padding: 6px 8px;">20</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">9</td><td style="border: 1px solid #999; padding: 6px 8px;">Georg Friedrich Bernhard Riemann</td><td style="border: 1px solid #999; padding: 6px 8px;">0.02222</td><td style="border: 1px solid #999; padding: 6px 8px;">0.28421</td><td style="border: 1px solid #999; padding: 6px 8px;">7</td><td style="border: 1px solid #999; padding: 6px 8px;">0.07345</td><td style="border: 1px solid #999; padding: 6px 8px;">4</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">10</td><td style="border: 1px solid #999; padding: 6px 8px;">Augustin-Louis Cauchy</td><td style="border: 1px solid #999; padding: 6px 8px;">0.02208</td><td style="border: 1px solid #999; padding: 6px 8px;">0.21053</td><td style="border: 1px solid #999; padding: 6px 8px;">9</td><td style="border: 1px solid #999; padding: 6px 8px;">0.02035</td><td style="border: 1px solid #999; padding: 6px 8px;">25</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">11</td><td style="border: 1px solid #999; padding: 6px 8px;">Pierre Fermat</td><td style="border: 1px solid #999; padding: 6px 8px;">0.02194</td><td style="border: 1px solid #999; padding: 6px 8px;">0.16842</td><td style="border: 1px solid #999; padding: 6px 8px;">17</td><td style="border: 1px solid #999; padding: 6px 8px;">0.03781</td><td style="border: 1px solid #999; padding: 6px 8px;">10</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">12</td><td style="border: 1px solid #999; padding: 6px 8px;">Pierre-Simon Laplace</td><td style="border: 1px solid #999; padding: 6px 8px;">0.02058</td><td style="border: 1px solid #999; padding: 6px 8px;">0.16842</td><td style="border: 1px solid #999; padding: 6px 8px;">17</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01714</td><td style="border: 1px solid #999; padding: 6px 8px;">28</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">13</td><td style="border: 1px solid #999; padding: 6px 8px;">Carl Gustav Jacob Jacobi</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01947</td><td style="border: 1px solid #999; padding: 6px 8px;">0.20000</td><td style="border: 1px solid #999; padding: 6px 8px;">11</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01466</td><td style="border: 1px solid #999; padding: 6px 8px;">31</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">14</td><td style="border: 1px solid #999; padding: 6px 8px;">Apollonius</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01868</td><td style="border: 1px solid #999; padding: 6px 8px;">0.08421</td><td style="border: 1px solid #999; padding: 6px 8px;">40</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01779</td><td style="border: 1px solid #999; padding: 6px 8px;">27</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">15</td><td style="border: 1px solid #999; padding: 6px 8px;">Georg Cantor</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01815</td><td style="border: 1px solid #999; padding: 6px 8px;">0.18947</td><td style="border: 1px solid #999; padding: 6px 8px;">14</td><td style="border: 1px solid #999; padding: 6px 8px;">0.05613</td><td style="border: 1px solid #999; padding: 6px 8px;">6</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">16</td><td style="border: 1px solid #999; padding: 6px 8px;">Jean Baptiste Joseph Fourier</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01809</td><td style="border: 1px solid #999; padding: 6px 8px;">0.22105</td><td style="border: 1px solid #999; padding: 6px 8px;">8</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01077</td><td style="border: 1px solid #999; padding: 6px 8px;">38</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">17</td><td style="border: 1px solid #999; padding: 6px 8px;">Archimedes</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01799</td><td style="border: 1px solid #999; padding: 6px 8px;">0.09474</td><td style="border: 1px solid #999; padding: 6px 8px;">33</td><td style="border: 1px solid #999; padding: 6px 8px;">0.00788</td><td style="border: 1px solid #999; padding: 6px 8px;">49</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">18</td><td style="border: 1px solid #999; padding: 6px 8px;">René Descartes</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01753</td><td style="border: 1px solid #999; padding: 6px 8px;">0.11579</td><td style="border: 1px solid #999; padding: 6px 8px;">27</td><td style="border: 1px solid #999; padding: 6px 8px;">0.02615</td><td style="border: 1px solid #999; padding: 6px 8px;">19</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">19</td><td style="border: 1px solid #999; padding: 6px 8px;">Bertrand Arthur William Russell</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01592</td><td style="border: 1px solid #999; padding: 6px 8px;">0.16842</td><td style="border: 1px solid #999; padding: 6px 8px;">17</td><td style="border: 1px solid #999; padding: 6px 8px;">0.02740</td><td style="border: 1px solid #999; padding: 6px 8px;">17</td></tr>
+<tr><td style="border: 1px solid #999; padding: 6px 8px;">20</td><td style="border: 1px solid #999; padding: 6px 8px;">Jules Henri Poincaré</td><td style="border: 1px solid #999; padding: 6px 8px;">0.01588</td><td style="border: 1px solid #999; padding: 6px 8px;">0.18947</td><td style="border: 1px solid #999; padding: 6px 8px;">14</td><td style="border: 1px solid #999; padding: 6px 8px;">0.03529</td><td style="border: 1px solid #999; padding: 6px 8px;">11</td></tr>
 </table>
 
 ### Key Findings
