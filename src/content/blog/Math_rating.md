@@ -1,25 +1,8 @@
 ---
-title: Is Euler really the greatest?
-type: own-articles
-status: ready
-date_published: 2026-07-19
-date_updated:
-published: true
-excerpt: A network analysis of 96 great mathematicians reveals that Euler, despite his reputation, isn't the most central figure — and the reason why says something about how we assign credit in general.
-slug: is-euler-really-the-greatest
-url:
-review_count: 0
-tags:
-  - type/own-articles
-  - project/blog
-topics:
-  - mathematics
-  - graph-theory
-  - data-science
-created: 2026-07-19T16:47
-updated: 2026-07-22T14:59
+title: "Is Euler really the greatest?"
+description: "A network analysis of 96 great mathematicians reveals that Euler, despite his reputation, isn't the most central figure — and the reason why says something about how we assign credit in general."
 pubDate: 2026-07-19
-description: A network analysis of 96 great mathematicians reveals that Euler, despite his reputation, isn't the most central figure — and the reason why says something about how we assign credit in general.
+draft: false
 ---
 
 # Is Euler really the greatest?
