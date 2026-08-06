@@ -15,7 +15,7 @@ Unfortunately, there's ambiguity about the tables to use in the configuration pa
 
 First of all, if an item is lot tracked, be sure to create the item with the field *Item Tracking Code* filled in. In the table Item Tracking Codes, the boolean Lot Specific Tracking must be checked.
 
-![Item Tracking Codes list with Lot Specific Tracking enabled for LOTALL](/blog/lot-tracking/item-tracking-codes.png)
+![Item Tracking Codes list with Lot Specific Tracking enabled for LOTALL](/blog/lot-tracking-codes.png)
 
 Lot Specific Tracking determines that outbound transactions must be matched against the specific lots that came in — Business Central tracks which lot you consume. Whether a lot no. is *required* on a given transaction is controlled separately, on the Inbound and Outbound tabs of the Item Tracking Code. LOTALL has all of them enabled, which is why every transaction in this example needs a lot no.
 
