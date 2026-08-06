@@ -25,23 +25,23 @@ If you don't know which tables to include in a configuration package, do the act
 
 For the inventory opening balance, we will use an item journal. We start from an "empty" company, without item transactions, and we can consider the inventory opening balance as a positive adjustment: we have zero stock for a number of items, and we increase this stock to its real quantity. Therefore, in the item journal, we will create lines with the type *Positive Adjustment*. Do not post the journal — we want to look afterwards at which tables and fields were used.
 
-![Item journal line with entry type Positive Adjustment for a lot tracked item](/blog/lot-tracking/item-journal-line.png)
+![Item journal line with entry type Positive Adjustment for a lot tracked item](/blog/lot-journal-line.png)
 
 And when clicking *Line / Item Tracking Lines*, we can enter the lot nos. with their respective quantities.
 
-![Item Tracking Lines with lot numbers L0001 and L0002 for quantities 30 and 70](/blog/lot-tracking/item-tracking-lines.png)
+![Item Tracking Lines with lot numbers L0001 and L0002 for quantities 30 and 70](/blog/lot-tracking-lines.png)
 
 Evidently, the sum of the quantities of the different lot nos. must be equal to the quantity on the item journal line.
 
 Now that we have entered our inventory information, we can take a look at the tables used. The table used for the item journal is 83, but we need to take a closer look at the item tracking lines:
 
-![Page Inspection showing Tracking Specification table 336 marked as a temporary source table](/blog/lot-tracking/page-inspection-336.png)
+![Page Inspection showing Tracking Specification table 336 marked as a temporary source table](/blog/lot-page-inspection-336.png)
 
 This screenshot shows that the table no. is 336, but more important is the message below: **The source table of this page is temporary.** In other words, as soon as we leave this page, the data is no longer available in table 336. We can check this by running the table: on the URL of your role center, add `&table=336`, press Enter, and you won't see these two lines.
 
 So the next question is: where did these lines go? Let me tell you a secret: they are not in 336, but in table 337, Reservation Entry. I agree that the table name is somehow misleading, but run the table (again by adding `&table=337`):
 
-![Reservation Entry table 337 showing two lot lines with Reservation Status Prospect and Source Type 83](/blog/lot-tracking/reservation-entry-337.png)
+![Reservation Entry table 337 showing two lot lines with Reservation Status Prospect and Source Type 83](/blog/lot-reservation-entry-337.png)
 
 This last screenshot shows us some interesting information. We can see both our lot no. lines with their quantities. But even more important:
 
