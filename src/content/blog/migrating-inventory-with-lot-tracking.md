@@ -9,7 +9,7 @@ draft: false
 
 When migrating a customer from a legacy system to Microsoft Business Central, we often need to import inventory opening balances with item tracking. On the internet you'll find ways to do this, typically by using a configuration package. So far, this is correct, since the configuration package is the native tool to be used in Business Central for data migration activities.
 
-Unfortunately, there's ambiguity about the tables to use in the configuration package. With this article, I want to explain how you can successfully import opening inventory, which tables to use, and why.
+Unfortunately, there's ambiguity about the tables to use in the configuration package. With this article, I want to explain how you can successfully import opening inventory, which tables to use, and why. 
 
 ## The Setup
 
